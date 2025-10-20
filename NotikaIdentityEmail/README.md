@@ -54,7 +54,7 @@ Before running this application, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/NotikaIdentityEmail.git
+git clone https://github.com/emredurak-dev/NotikaIdentityEmail.git
 cd NotikaIdentityEmail
 ```
 
