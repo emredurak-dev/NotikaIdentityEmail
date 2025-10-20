@@ -1,0 +1,54 @@
+﻿<div class="header-top-area">
+    <div class="container">
+        <div class="row">
+            <!-- Logo Section -->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div class="logo-area">
+                    <a href="/Message/Inbox/"><img src="/notika-master/notika/green-horizotal/img/logo/logo.png" alt="Logo" /></a>
+                </div>
+            </div>
+
+            <!-- Top Menu Section -->
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <div class="header-top-menu">
+                    <ul class="nav navbar-nav notika-top-nav">
+                        <!-- Search Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                <span><i class="notika-icon notika-search"></i></span>
+                            </a>
+                            <div role="menu" class="dropdown-menu search-dd animated flipInX">
+                                <div class="search-input">
+                                    <i class="notika-icon notika-left-arrow"></i>
+                                    <input type="text" placeholder="Search..." />
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Message List Component -->
+                        @await Component.InvokeAsync("_MessageListOnNavbarHeaderComponentPartial")
+
+                        <!-- Notifications -->
+                        <li class="nav-item nc-al">
+                            <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                <span><i class="notika-icon notika-alarm"></i></span>
+                                <div class="spinner4 spinner-4"></div>
+                                <div class="ntd-ctn"><span>@ViewBag.userEmailCount</span></div>
+                            </a>
+                            @await Component.InvokeAsync("_NotificationListOnNavbarComponentPartial")
+                        </li>
+
+                        <!-- Menu / Additional Notifications -->
+                        <li class="nav-item">
+                            <a href="/Message/Inbox/" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                <span><i class="notika-icon notika-menus"></i></span>
+                                <div class="spinner4 spinner-4"></div>
+                                <div class="ntd-ctn"><span>@ViewBag.notificationCount</span></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

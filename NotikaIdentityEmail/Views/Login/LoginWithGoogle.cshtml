@@ -1,0 +1,14 @@
+﻿
+@{
+    Layout = null;
+}
+
+<div class="container">
+<br>
+<br>
+<form method="post" asp-controller="Login" asp-action="ExternalLogin">
+    <div class="alert alert-success"><b>Login with Google</b></div>
+    <input type="hidden" name="provider" value="Google" />
+    <button class="login100-social-item bg3" type="submit">Login</button>
+</form>
+</div>

@@ -1,0 +1,54 @@
+﻿@model List<AppUser>
+@{
+    ViewData["Title"] = "UserList";
+    Layout = "~/Views/UserLayout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="form-element-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="form-element-list">
+                    <div class="basic-tb-hd">
+                        <h2>User List</h2>
+                    </div>
+                    <div class="row">
+
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>#</th>
+                                <th>Full Name</th>
+                                <th>Username</th>
+                                <th>User Email</th>
+                                <th>User Status</th>
+                                <th>Assign Role</th>
+                            </tr>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <td>@count</td>
+                                    <td>@item.Name @item.Surname</td>
+                                    <td>@item.UserName</td>
+                                    <td>@item.Email</td>
+                                    <td>
+                                        @if (item.IsActive)
+                                        {
+                                            <a href="/User/DeactivateUserCount/@item.Id" class="btn btn-outline-warning">Passive</a>
+                                        }
+                                        else
+                                        {
+                                            <a href="/User/ActivateUserCount/@item.Id" class="btn btn-outline-success">Active</a>
+                                        }
+                                    </td>
+                                    <td><a href="/Role/AssignRole/@item.Id/" class="btn btn-warning">Assign Role</a></td>
+                                </tr>
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
