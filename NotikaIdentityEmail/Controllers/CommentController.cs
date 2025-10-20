@@ -51,7 +51,7 @@ namespace NotikaIdentityEmail.Controllers
             //toxic bert
             using (var client = new HttpClient())
             {
-                var apiKey = "YOUR-TOXIC-BERT-API-KEY";
+                var apiKey = Environment.GetEnvironmentVariable("TOXIC_BERT_KEY");
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
                 try
