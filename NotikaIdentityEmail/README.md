@@ -215,18 +215,6 @@ For production deployment, consider using environment variables for sensitive co
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/NotikaIdentityEmail/issues) page
-2. Create a new issue with detailed information
-3. Contact the development team
-
 ## 🔄 Version History
 
 - **v1.0.0** - Initial release with core functionality
@@ -235,12 +223,32 @@ If you encounter any issues or have questions:
   - Role management
   - Email integration
 
-## 📞 Contact
-
-- **Developer**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-
 ---
 
 **Note**: Remember to replace all placeholder values (YOUR_*_HERE) with your actual configuration values before running the application.
+
+---
+
+# Screenshots
+<img width="951" height="656" alt="Screenshot 2025-10-20 145344" src="https://github.com/user-attachments/assets/a2dcea36-6026-43a5-8269-0a414de37e1b" />
+<img width="1351" height="629" alt="Screenshot 2025-10-20 143348" src="https://github.com/user-attachments/assets/720738a4-6325-42ad-86a5-bbb6ea835cc9" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 143315" src="https://github.com/user-attachments/assets/765842c0-2f17-4429-9dda-6206c4b0c402" />
+<img width="1600" height="221" alt="Screenshot 2025-10-20 143215" src="https://github.com/user-attachments/assets/9b5feaad-c748-44af-8ccb-d0fbbd2921c1" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 143122" src="https://github.com/user-attachments/assets/878afb41-4582-4fbd-b0df-ad4b138e4b63" />
+<img width="184" height="133" alt="Screenshot 2025-10-20 143116" src="https://github.com/user-attachments/assets/26df20f4-9711-440a-b846-c4945d84d0b8" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 143036" src="https://github.com/user-attachments/assets/b9617823-6f55-49a9-8cea-30bad22737f7" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 143015" src="https://github.com/user-attachments/assets/5e03335a-b401-462f-a513-3e8093367e66" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142909" src="https://github.com/user-attachments/assets/2cc3d19e-201c-4146-9fd0-b60749c50369" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142859" src="https://github.com/user-attachments/assets/8dc4c521-1f08-4e10-be4c-e08ef4d851a9" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142844" src="https://github.com/user-attachments/assets/534ce9d3-b923-4e3e-99ca-e1909b6696dc" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142837" src="https://github.com/user-attachments/assets/d65423eb-6839-45f2-9d9b-6fbe725fae3a" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142821" src="https://github.com/user-attachments/assets/787d8b30-2fea-41bd-8f57-648b4b7ae0b5" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142753" src="https://github.com/user-attachments/assets/97a3e953-3704-4602-9907-a4a92a1f1a1b" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142731" src="https://github.com/user-attachments/assets/a6b0fd2c-b7c2-4c21-b86a-b9aeed63e84d" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142724" src="https://github.com/user-attachments/assets/a9a61064-84b3-4e65-a2d2-3315e5d78570" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142528" src="https://github.com/user-attachments/assets/9b1903b5-4537-410c-bf6c-57f1913390db" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142502" src="https://github.com/user-attachments/assets/6d902c2c-f7bc-4a6c-9845-5b66e505ea57" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142455" src="https://github.com/user-attachments/assets/5f4627e8-d1d2-489a-a536-b70444749f3d" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142450" src="https://github.com/user-attachments/assets/c5241f5b-507a-4ad9-9dff-c0798b9da581" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 142439" src="https://github.com/user-attachments/assets/46254206-5580-44c3-9c20-605da709680a" />
+
