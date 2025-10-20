@@ -51,7 +51,7 @@ namespace NotikaIdentityEmail.Controllers
             //toxic bert
             using (var client = new HttpClient())
             {
-                var apiKey = "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";
+                var apiKey = "YOUR-TOXIC-BERT-API-KEY";
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
                 try
@@ -62,7 +62,7 @@ namespace NotikaIdentityEmail.Controllers
                     };
                     var translateJson = JsonSerializer.Serialize(translateRequestBody);
                     var translateContent = new StringContent(translateJson, Encoding.UTF8, "application/json");
-                    var translateResponse = await client.PostAsync("https://api-inference.huggingface.co/models/Helsinki-NLP/opus-mt-tr-en", translateContent);
+                    var translateResponse = await client.PostAsync("YOUR-TOXIC-BERT-API-URL", translateContent);
                     var translateResponseString = await translateResponse.Content.ReadAsStringAsync();
                     string englishText = comment.CommentDetail;
                     if (translateResponseString.TrimStart().StartsWith("["))
@@ -77,7 +77,7 @@ namespace NotikaIdentityEmail.Controllers
 
                     var toxicJson = JsonSerializer.Serialize(toxicRequestBody);
                     var toxicContent = new StringContent(toxicJson, Encoding.UTF8, "application/json");
-                    var toxicResponse = await client.PostAsync("https://api-inference.huggingface.co/models/unitary/toxic-bert", toxicContent);
+                    var toxicResponse = await client.PostAsync("YOUR-TOXIC-BERT-API-URL", toxicContent);
                     var toxicResponseString = await toxicResponse.Content.ReadAsStringAsync();
 
                     if (toxicResponseString.TrimStart().StartsWith("["))
@@ -143,4 +143,3 @@ namespace NotikaIdentityEmail.Controllers
         }
     }
 }
-//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
