@@ -230,14 +230,12 @@ For production deployment, consider using environment variables for sensitive co
 ---
 
 # Screenshots
-<img width="951" height="656" alt="Screenshot 2025-10-20 145344" src="https://github.com/user-attachments/assets/a2dcea36-6026-43a5-8269-0a414de37e1b" />
 <img width="1351" height="629" alt="Screenshot 2025-10-20 143348" src="https://github.com/user-attachments/assets/720738a4-6325-42ad-86a5-bbb6ea835cc9" />
 <img width="1919" height="1079" alt="Screenshot 2025-10-20 143315" src="https://github.com/user-attachments/assets/765842c0-2f17-4429-9dda-6206c4b0c402" />
 <img width="1600" height="221" alt="Screenshot 2025-10-20 143215" src="https://github.com/user-attachments/assets/9b5feaad-c748-44af-8ccb-d0fbbd2921c1" />
 <img width="1919" height="1079" alt="Screenshot 2025-10-20 143122" src="https://github.com/user-attachments/assets/878afb41-4582-4fbd-b0df-ad4b138e4b63" />
 <img width="184" height="133" alt="Screenshot 2025-10-20 143116" src="https://github.com/user-attachments/assets/26df20f4-9711-440a-b846-c4945d84d0b8" />
-<img width="1919" height="1079" alt="Screenshot 2025-10-20 143036" src="https://github.com/user-attachments/assets/b9617823-6f55-49a9-8cea-30bad22737f7" />
-<img width="1919" height="1079" alt="Screenshot 2025-10-20 143015" src="https://github.com/user-attachments/assets/5e03335a-b401-462f-a513-3e8093367e66" />
+<img width="1919" height="1079" alt="Screenshot 2025-10-20 143036 - Edited" src="https://github.com/user-attachments/assets/91507e5d-9c58-499a-8079-ba3fdb033d14" />
 <img width="1919" height="1079" alt="Screenshot 2025-10-20 142909" src="https://github.com/user-attachments/assets/2cc3d19e-201c-4146-9fd0-b60749c50369" />
 <img width="1919" height="1079" alt="Screenshot 2025-10-20 142859" src="https://github.com/user-attachments/assets/8dc4c521-1f08-4e10-be4c-e08ef4d851a9" />
 <img width="1919" height="1079" alt="Screenshot 2025-10-20 142844" src="https://github.com/user-attachments/assets/534ce9d3-b923-4e3e-99ca-e1909b6696dc" />
